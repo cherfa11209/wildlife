@@ -1,0 +1,40 @@
+img {
+    width: 500px;
+    height: 300px;
+    margin: 10px;
+    border: 2px solid brown;
+}
+
+img:hover {
+    width: 550px;
+    height: 320px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h2 {
+    color: rgba(235, 132, 180, 1);
+    text-align: center;
+    border-bottom: 3px solid rgba(206, 132, 194, 0.7);
+    font-family: fantasy;
+    font-size: 3em;
+}
+
+body {
+    background-image: url("https://wallpaperaccess.com/full/4101715.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+footer {
+    text-align: center;
+    color: rgba(235, 132, 180, 1);
+    font-family: fantasy;
+    font-weight: bolder;
+    font-size: 30px;
+    border-top:3px solid rgba(206, 132, 194, 0.7);
+}
