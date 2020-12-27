@@ -3,6 +3,7 @@ img {
     height: 300px;
     margin: 10px;
     border: 2px solid brown;
+    transition: 1s;
 }
 
 img:hover {
@@ -17,9 +18,9 @@ img:hover {
 }
 
 h2 {
-    color: rgba(235, 132, 180, 1);
+    color: brown;
     text-align: center;
-    border-bottom: 3px solid rgba(206, 132, 194, 0.7);
+    border-bottom: brown;
     font-family: fantasy;
     font-size: 3em;
 }
@@ -32,9 +33,9 @@ body {
 
 footer {
     text-align: center;
-    color: rgba(235, 132, 180, 1);
+    color: brown;
     font-family: fantasy;
     font-weight: bolder;
     font-size: 30px;
-    border-top:3px solid rgba(206, 132, 194, 0.7);
+    border-top:3px solid brown;
 }
